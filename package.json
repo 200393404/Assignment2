@@ -1,0 +1,27 @@
+{
+  "name": "studentlist",
+  "version": "1.0.0",
+  "description": "Student list crud application using node express mongoose and pug",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "pug",
+    "mongoose",
+    "crud",
+    "student"
+  ],
+  "author": "Shreedutt Vyas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "mongoose": "^5.9.25",
+    "nodemon": "^2.0.4"
+  }
+}
